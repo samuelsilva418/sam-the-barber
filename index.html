@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sam The Barber</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Sam The Barber</h1>
+    <p>Mais que corte, atitude.</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre o Sam</h2>
+    <p>
+      O Sam é um barbeiro dedicado que une técnica e estilo para oferecer cortes
+      modernos e atendimento personalizado. Apaixonado pela arte da barbearia,
+      ele garante que cada cliente saia com atitude e confiança.
+    </p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Corte social</li>
+      <li>Barba</li>
+      <li>Aparo</li>
+      <li>Design de barba</li>
+      <li>Outros serviços personalizados</li>
+    </ul>
+  </section>
+
+  <section id="depoimentos">
+    <h2>Depoimentos</h2>
+    <blockquote>
+      “Excelente atendimento e resultado impecável! Recomendo o Sam para todos.”
+      <br />– João M.
+    </blockquote>
+    <blockquote>
+      “Ambiente agradável e profissionalismo nota 10. Sempre volto!”
+      <br />– Carlos S.
+    </blockquote>
+  </section>
+
+  <section id="agendamento">
+    <h2>Agende seu horário</h2>
+    <form id="form-agendamento">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required />
+
+      <label for="servico">Serviço desejado:</label>
+      <select id="servico" name="servico" required>
+        <option value="" disabled selected>Escolha um serviço</option>
+        <option value="Corte social">Corte social</option>
+        <option value="Barba">Barba</option>
+        <option value="Aparo">Aparo</option>
+        <option value="Design de barba">Design de barba</option>
+        <option value="Outro serviço personalizado">Outro serviço personalizado</option>
+      </select>
+
+      <label for="data">Data preferida:</label>
+      <input type="date" id="data" name="data" required />
+
+      <label for="hora">Hora preferida:</label>
+      <input type="time" id="hora" name="hora" required />
+
+      <button type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>WhatsApp: <a href="https://wa.me/5518996413819" target="_blank">+55 18 99641-3819</a></p>
+    <p>Instagram: <a href="https://instagram.com/samumauro" target="_blank">@samumauro</a></p>
+    <p>Endereço: Rua Exemplo, 123 - Sua Cidade, SP</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Sam The Barber - Mais que corte, atitude.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
